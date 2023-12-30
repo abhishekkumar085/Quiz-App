@@ -47,6 +47,8 @@ Welcome to the Quiz App, a dynamic web application designed to offer an engaging
 
 ## Try it Live!
 
+check out live version of the Quiz App on Github Pages [here](https://abhishekkumar085.github.io/Quiz-App/)
+
 Check out the live version of the Quiz App [here](https://quiz-app-394i.vercel.app/).
 
 
