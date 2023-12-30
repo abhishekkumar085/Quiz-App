@@ -18,6 +18,7 @@ body {
     #3fada8,
     #808080
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  overflow: hidden;
 }
 
 .quiz-header {
@@ -87,6 +88,7 @@ body {
     background: #808080;
     background: -webkit-linear-gradient(to right, #3fada8, #808080);
     background: linear-gradient(to right, #3fada8, #808080);
+    overflow: hidden;
   }
   .quiz-header {
     width: 400px;
@@ -114,7 +116,10 @@ body {
   #restartBtn {
     font-size: 14px;
   }
-  .swal2-popup {
+  /* .swal2-popup {
+    width: 80%;
+  } */
+  .swal2-popup.swal2-modal {
     width: 80%;
   }
 }
