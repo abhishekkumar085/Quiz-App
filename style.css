@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background: #808080; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #3fada8,
+    #808080
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #3fada8,
+    #808080
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.quiz-header {
+  height: 60px;
+  width: 450px;
+  margin: auto;
+  background-color: #494646;
+  position: relative;
+}
+.quiz-nav {
+  color: white;
+  margin-top: 12px;
+}
+.quiz-nav h1 {
+  text-align: center;
+  margin-top: 2px;
+}
+.quiz-nav #quest {
+  position: absolute;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+.quiz-nav #score {
+  position: absolute;
+  right: 0;
+  padding-right: 5px;
+  padding-top: 5px;
+}
+/* question-answer-section */
+.question-answer-section {
+  width: 450px;
+  margin: auto;
+  margin-top: 10px;
+}
+.question-answer-section > .question-section > ul > li {
+  border: 2px solid #ccc;
+  padding: 8px;
+  margin-top: 5px;
+  list-style-type: none;
+  cursor: pointer;
+}
+/* btn section */
+
+.btn-section {
+  text-align: center;
+}
+.btn-section > .btn {
+  background: #494646;
+  padding: 8px 16px;
+  color: white;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.btn-section > .btn:hover {
+  background: #1b1919;
+}
+
+/* media query */
+@media only screen and (max-width: 600px) {
+    *{
+        margin: 0;padding: 0;box-sizing: border-box;
+    }
+    body{
+       background: #808080; 
+        background: -webkit-linear-gradient(
+          to right,
+          #3fada8,
+          #808080
+        ); 
+        background: linear-gradient(
+          to right,
+          #3fada8,
+          #808080
+        ); 
+    }
+    .quiz-header{
+        width: 400px;
+    }
+    .quiz-nav {
+        color: white;
+      margin: 0;
+      }
+      .question-answer-section {
+        width: 380px;
+        margin: auto;
+        margin-top: 10px;
+      }
+
+
+    #question {
+      font-size: 18px;
+    }
+  
+    #options li {
+      font-size: 16px;
+    }
+  
+    #score,
+    #nextbtn,
+    #restartBtn {
+      font-size: 14px;
+    }
+    .swal2-popup{
+        width: 80%;
+        
+    }
+  }
